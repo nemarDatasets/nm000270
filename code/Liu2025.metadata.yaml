@@ -1,0 +1,172 @@
+_dataset:
+  class: Liu2025
+  code: Liu2025
+  doi: 10.1038/s41597-025-04618-4
+  interval:
+  - 0
+  - 5
+  n_subjects: 27
+  paradigm: imagery
+acquisition:
+  channel_types:
+    ecg: 1
+    eeg: 60
+    eog: 4
+  filters:
+    notch: 50.0
+  hardware: NeuSen W (Neuracle, Inc.)
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 64
+  sampling_rate: 1000.0
+  sensor_type: Ag/AgCl
+bci_application:
+  applications:
+  - rehabilitation
+  - gait
+  environment: laboratory
+cross_validation:
+  cv_folds: 10
+  cv_method: 10-fold
+  evaluation_type:
+  - within_subject
+  - cross_session
+data_structure:
+  n_trials: 8640
+  trials_context: 27 subjects x 3 default sessions (pre/post/follow) x ~4 runs x ~20 trials = ~6480. Paradigm group subjects
+    have 2 extra sessions (mises/miies).
+documentation:
+  country: CN
+  data_url: https://zenodo.org/records/18987384
+  doi: 10.1038/s41597-025-04618-4
+  institution: Tianjin University
+  investigators:
+  - Yuan Liu
+  - Zhuolan Gui
+  - De Yan
+  - Zhuang Wang
+  - Ruisi Gao
+  - Ningxin Han
+  - Junying Chen
+  - Jialing Wu
+  - Dong Ming
+  license: CC-BY-NC-ND-4.0
+  publication_year: 2025
+experiment:
+  class_labels:
+  - gait_imagery
+  - rest
+  events:
+    gait_imagery: 3
+    rest: 9
+  feedback_type: none
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cue
+  study_design: Binary gait MI vs idle. 27 stroke patients, 5 experiment types (pre/MI-SES/MI-IES/post/follow). ~4 runs x
+    20 trials per session.
+  synchronicity: synchronous
+  trial_duration: 5.0
+file_format: BrainVision (.vhdr/.vmrk/.eeg)
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 5.0
+  imagery_tasks:
+  - gait_imagery
+  - rest
+participants:
+  age_max: 68.0
+  age_min: 33.0
+  ages:
+  - 40
+  - 40
+  - 48
+  - 41
+  - 59
+  - 55
+  - 33
+  - 59
+  - 54
+  - 66
+  - 52
+  - 38
+  - 48
+  - 65
+  - 52
+  - 48
+  - 63
+  - 54
+  - 68
+  - 51
+  - 39
+  - 53
+  - 64
+  - 50
+  - 55
+  - 55
+  - 41
+  clinical_population: stroke
+  gender:
+    female: 4
+    male: 23
+  handedness: mixed
+  health_status: stroke (recovery phase)
+  n_subjects: 27
+  sexes:
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - F
+  - M
+  - F
+  - F
+  - M
+  - M
+  - M
+  - M
+  - M
+  - M
+  - F
+  - M
+  - M
+  - M
+  - M
+  species: human
+runs_per_session: 4
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - CSP+SVM
+  feature_extraction:
+  - CSP
+  - ERSP
+  frequency_bands:
+    MI_features:
+    - 8.0
+    - 25.0
+    preprocessing:
+    - 3.0
+    - 35.0
+  spatial_filters:
+  - CSP
+  - CAR
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Stroke
+  type:
+  - Research
