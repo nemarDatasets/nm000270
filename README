@@ -1,0 +1,49 @@
+# Lower limb motor imagery EEG dataset of stroke patients (multi-paradigm, longitudinal training)
+
+## Summary
+
+This dataset contains scalp electroencephalography (EEG) recordings acquired during a
+**lower-limb motor-imagery** paradigm in **stroke patients** undergoing rehabilitation.
+It was collected with a multi-paradigm protocol and a longitudinal (repeated-session)
+training design, supporting research on motor-imagery brain–computer interfaces (BCI)
+for lower-limb and gait rehabilitation after stroke.
+
+The BIDS conversion in this NEMAR record contains EEG data for **27 participants**
+(`sub-*` folders), organised under the `eeg/` modality with a single motor-imagery
+task (`task-imagery`).
+
+## Modality and paradigm
+
+- **Modality:** EEG (scalp electroencephalography)
+- **Task / paradigm:** Lower-limb motor imagery (`task-imagery`), multi-paradigm,
+  longitudinal training
+- **Population:** Stroke patients (rehabilitation cohort)
+
+## Participants
+
+This BIDS dataset includes **27 subjects** (`sub-01` … ). Refer to `participants.tsv`
+and the original data descriptor for demographic and clinical details.
+
+## Original dataset / data paper
+
+Please cite the original Scientific Data descriptor when using this dataset:
+
+> Liu, Y., Gui, Z., Yan, D., Wang, Z., Gao, R., Han, N., Chen, J., Wu, J., & Ming, D.
+> (2025). *Lower limb motor imagery EEG dataset based on the multi-paradigm and
+> longitudinal-training of stroke patients.* **Scientific Data, 12, 314.**
+> https://doi.org/10.1038/s41597-025-04618-4
+
+- **DOI:** [10.1038/s41597-025-04618-4](https://doi.org/10.1038/s41597-025-04618-4)
+- **Source / project:** Tianjin University
+- **Related record:** https://zenodo.org/records/18987384
+
+## Attribution
+
+All data were collected by the original authors (Yuan Liu and colleagues, Tianjin
+University). Please credit the original creators and cite the data paper above. This
+NEMAR record redistributes the dataset in BIDS format; EEG-BIDS and related BIDS tools
+were used only for standardisation, not as the source of the data.
+
+## License
+
+CC-BY-NC-ND-4.0 (see `dataset_description.json`).
