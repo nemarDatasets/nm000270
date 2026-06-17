@@ -14,7 +14,7 @@
     "Jialing Wu",
     "Dong Ming"
   ],
-  "DatasetDOI": "doi:10.1038/s41597-025-04618-4",
+  "DatasetDOI": "10.82901/nemar.nm000270",
   "ReferencesAndLinks": [
     "https://doi.org/10.1038/s41597-025-04618-4",
     "https://zenodo.org/records/18987384"
@@ -30,5 +30,10 @@
     "EEG",
     "longitudinal"
   ],
-  "Version": "1.0.1"
+  "Version": "1.0.1",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.1038/s41597-025-04618-4"
+    }
+  ]
 }
