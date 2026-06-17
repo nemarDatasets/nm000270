@@ -1,0 +1,93 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Yuan Liu": {
+      "orcid": "0000-0002-9703-7357"
+    },
+    "Zhuolan Gui": {
+      "orcid": "0009-0006-7972-7246"
+    },
+    "De Yan": {},
+    "Zhuang Wang": {},
+    "Ruisi Gao": {},
+    "Ningxin Han": {},
+    "Junying Chen": {},
+    "Jialing Wu": {},
+    "Dong Ming": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-04618-4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000270",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000270",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.nm000270",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "title": "Liu et al. 2025 — Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "6.2 GB (111 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises scalp electroencephalography recordings from 27 stroke patients performing lower-limb motor imagery tasks as part of a longitudinal rehabilitation training protocol. The multi-paradigm design supports research on motor-imagery brain–computer interfaces for gait and lower-limb rehabilitation following stroke, with repeated sessions enabling investigation of learning and neuroplastic changes over time.",
+  "methods_description": "Scalp EEG recordings were acquired during a lower-limb motor imagery task (task-imagery) using a multi-paradigm protocol with longitudinal training design in stroke patients undergoing rehabilitation. Data are organized in BIDS format with 27 participants.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "rehabilitation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000071939"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "gait"
+    },
+    {
+      "term": "lower limb"
+    },
+    {
+      "term": "longitudinal"
+    }
+  ],
+  "source_hash": "6706aadf4ed1555bddaa110655a706b349a135d9bfa2c4c530b342a4efca58b8"
+}
