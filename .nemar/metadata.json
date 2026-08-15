@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Liu et al. 2025 — Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
-  "description": "This dataset comprises scalp electroencephalography recordings from 27 stroke patients performing lower-limb motor imagery tasks as part of a longitudinal rehabilitation training protocol. The longitudinal design with repeated sessions enables investigation of learning and neuroplastic changes over time, supporting research on motor-imagery brain–computer interfaces for gait and lower-limb rehabilitation following stroke.",
-  "methods_description": "Scalp EEG recordings were acquired during a lower-limb motor imagery task (task-imagery) using a multi-paradigm protocol with longitudinal training design in stroke patients undergoing rehabilitation. Data are organized in BIDS format with 27 participants.",
+  "description": "This dataset comprises scalp electroencephalography recordings from 27 stroke patients performing lower-limb motor imagery tasks as part of a longitudinal rehabilitation training protocol. The multi-paradigm design supports research on motor-imagery brain–computer interfaces for gait and lower-limb rehabilitation following stroke, with repeated sessions enabling investigation of learning and neuroplastic changes over time.",
+  "methods_description": "Scalp EEG recordings were acquired during a lower-limb motor imagery task (`task-imagery`) in stroke patients undergoing rehabilitation. The study employed a multi-paradigm protocol with a longitudinal training design involving repeated sessions across 27 participants.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -29,13 +29,13 @@
       "term": "stroke"
     },
     {
+      "term": "stroke rehabilitation"
+    },
+    {
       "term": "EEG"
     },
     {
       "term": "brain-computer interfaces"
-    },
-    {
-      "term": "rehabilitation"
     },
     {
       "term": "gait"
@@ -47,9 +47,7 @@
       "term": "longitudinal"
     },
     {
-      "term": "Longitudinal Studies",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008137"
+      "term": "rehabilitation"
     }
   ],
   "related_identifiers": [
@@ -94,5 +92,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "9f2ba2d9f2556d3285554f7cf618216b50065e988c5441a53270764badaec044"
+  "source_hash": "8a049b162bf4305cb230d57bdd3b84f09b68f88a5f7627598baa68f5685d819e"
 }
