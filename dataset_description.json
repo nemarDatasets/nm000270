@@ -1,5 +1,5 @@
 {
-  "Name": "Liu et al. 2025 \u2014 Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
+  "Name": "Liu et al. 2025 — Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "raw",
@@ -31,7 +31,7 @@
     "EEG",
     "longitudinal"
   ],
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "SourceDatasets": [
     {
       "DOI": "doi:10.1038/s41597-025-04618-4"
