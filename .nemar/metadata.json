@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Liu et al. 2025 — Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
-  "description": "This dataset comprises scalp electroencephalography recordings from 27 stroke patients performing lower-limb motor imagery tasks as part of a longitudinal rehabilitation training protocol. The multi-paradigm design supports research on motor-imagery brain–computer interfaces for gait and lower-limb rehabilitation following stroke, with repeated sessions enabling investigation of learning and neuroplastic changes over time.",
+  "description": "This dataset comprises scalp EEG recordings from 27 stroke patients undergoing rehabilitation, collected during a lower-limb motor-imagery paradigm using a multi-paradigm, longitudinal-training protocol. It supports research into motor-imagery brain-computer interfaces (BCI) for lower-limb and gait rehabilitation after stroke. The data were originally described in a Scientific Data descriptor and have been converted to BIDS format for this NEMAR record.",
   "methods_description": "Scalp EEG recordings were acquired during a lower-limb motor imagery task (`task-imagery`) in stroke patients undergoing rehabilitation. The study employed a multi-paradigm protocol with a longitudinal training design involving repeated sessions across 27 participants.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "raw",
@@ -23,22 +23,25 @@
   },
   "keywords": [
     {
-      "term": "motor imagery"
-    },
-    {
-      "term": "stroke"
-    },
-    {
-      "term": "stroke rehabilitation"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "motor imagery"
     },
     {
-      "term": "gait"
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "Rehabilitation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
+    },
+    {
+      "term": "Gait",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
     },
     {
       "term": "lower limb"
@@ -47,7 +50,7 @@
       "term": "longitudinal"
     },
     {
-      "term": "rehabilitation"
+      "term": "brain-computer interface"
     }
   ],
   "related_identifiers": [
@@ -92,5 +95,10 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "f743268de4b6138cc82a9ce29d0114a69bd85bfb17d168a91c5ded55238bb145"
+  "funding_references": [
+    {
+      "funder_name": "Tianjin University"
+    }
+  ],
+  "source_hash": "943990be38aee42d6a83f7ed2fd3bbae11e95cffa5cccc9e924447e9cf90993a"
 }
