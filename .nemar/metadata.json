@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Liu et al. 2025 — Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
-  "description": "This dataset comprises scalp EEG recordings from 27 stroke patients undergoing rehabilitation, collected during a lower-limb motor-imagery paradigm using a multi-paradigm, longitudinal-training protocol. It supports research into motor-imagery brain-computer interfaces (BCI) for lower-limb and gait rehabilitation after stroke. The data were originally described in a Scientific Data descriptor and have been converted to BIDS format for this NEMAR record.",
+  "description": "Scalp EEG recordings from 27 stroke patients performing a lower-limb motor imagery task under a multi-paradigm protocol with longitudinal, repeated-session training. The dataset supports research on motor-imagery brain-computer interfaces for lower-limb and gait rehabilitation after stroke. It is distributed in BIDS format and was collected at Tianjin University.",
   "methods_description": "Scalp EEG recordings were acquired during a lower-limb motor imagery task (`task-imagery`) in stroke patients undergoing rehabilitation. The study employed a multi-paradigm protocol with a longitudinal training design involving repeated sessions across 27 participants.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "raw",
@@ -39,18 +39,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
     },
     {
-      "term": "Gait",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
+      "term": "brain-computer interface"
     },
     {
       "term": "lower limb"
     },
     {
-      "term": "longitudinal"
-    },
-    {
-      "term": "brain-computer interface"
+      "term": "gait"
     }
   ],
   "related_identifiers": [
@@ -65,14 +60,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.82901/nemar.nm000270",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    },
-    {
       "identifier": "https://nemar.org/dataset/nm000270",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Tianjin University"
     }
   ],
   "resource_type_general": "Dataset",
@@ -81,7 +76,7 @@
     "eeg"
   ],
   "sizes": [
-    "60.4 GB (970 files)"
+    "56.24 GB (970 files)"
   ],
   "formats": [
     ".bdf",
@@ -94,11 +89,6 @@
     ".yaml",
     ".yml",
     ".zip"
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Tianjin University"
-    }
   ],
   "source_hash": "943990be38aee42d6a83f7ed2fd3bbae11e95cffa5cccc9e924447e9cf90993a"
 }
