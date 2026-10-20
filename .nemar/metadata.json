@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Liu et al. 2025 — Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
-  "description": "Scalp EEG recordings from 27 stroke patients performing a lower-limb motor imagery task under a multi-paradigm protocol with longitudinal, repeated-session training. The dataset supports research on motor-imagery brain-computer interfaces for lower-limb and gait rehabilitation after stroke. It is distributed in BIDS format and was collected at Tianjin University.",
+  "description": "This dataset contains scalp EEG recordings from 27 stroke patients performing lower-limb motor imagery during rehabilitation. It was collected with a multi-paradigm protocol and a longitudinal, repeated-session training design. It is intended to support research on motor-imagery brain-computer interfaces for lower-limb and gait rehabilitation after stroke.",
   "methods_description": "Scalp EEG recordings were acquired during a lower-limb motor imagery task (`task-imagery`) in stroke patients undergoing rehabilitation. The study employed a multi-paradigm protocol with a longitudinal training design involving repeated sessions across 27 participants.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "raw",
@@ -34,18 +34,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
     },
     {
-      "term": "Rehabilitation",
+      "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
-    },
-    {
-      "term": "brain-computer interface"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "lower limb"
     },
     {
-      "term": "gait"
+      "term": "gait rehabilitation"
+    },
+    {
+      "term": "longitudinal training"
     }
   ],
   "related_identifiers": [
@@ -90,5 +90,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "943990be38aee42d6a83f7ed2fd3bbae11e95cffa5cccc9e924447e9cf90993a"
+  "source_hash": "d086f1bd2f8163a15a9f719c4bd50d9e204e0ce08944475bc59fb1bb931b3f5b"
 }
